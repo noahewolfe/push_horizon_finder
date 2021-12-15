@@ -1,0 +1,9 @@
+name: push-horizon-finder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scipy
+  - numpy
+  - matplotlib
+  - tqdm
