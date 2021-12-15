@@ -1,5 +1,5 @@
-# agile_horizon_finder
-Post-process AGILE general relativistic hydrodynamics output to identify the formation of black hole horizons.
+# push_horizon_finder
+Post-process AGILE general relativistic hydrodynamics output from completed PUSH simulations to identify the formation of black hole horizons.
 
 # Installation
 
