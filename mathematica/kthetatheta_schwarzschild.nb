@@ -1,0 +1,580 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21859,        572]
+NotebookOptionsPosition[     20245,        538]
+NotebookOutlinePosition[     20642,        554]
+CellTagsIndexPosition[     20599,        551]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{"<<", "GRhelper`"}]}]], "Input",
+ CellChangeTimes->{{3.845976377277947*^9, 3.8459763815719852`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"c89347df-0044-476e-9e19-98043843d9d0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\<\"Enter ?GRhelper for a list of functions\"\>"], "Print",
+ CellChangeTimes->{3.845976381850834*^9, 3.845977356428122*^9},
+ CellLabel->
+  "During evaluation of \
+In[9]:=",ExpressionUUID->"c2a3b1ac-446e-4721-bab1-e511dbd64be9"],
+
+Cell[BoxData["\<\"Enter ?FunctionName for a description of the function \
+'FunctionName'\"\>"], "Print",
+ CellChangeTimes->{3.845976381850834*^9, 3.845977356429782*^9},
+ CellLabel->
+  "During evaluation of \
+In[9]:=",ExpressionUUID->"efdf0cf5-373f-4f26-b57c-5e29299829fa"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "GRhelper"}]], "Input",
+ CellChangeTimes->{{3.8459763842708893`*^9, 3.8459763860716543`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"bdb5d61b-d3f5-4432-89c4-6025f0391a0a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"GRhelper \
+\\!\\(\\*\\nStyleBox[\\\"Main\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\\
+nStyleBox[\\\" \
+\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\nStyleBox[\\\"Functions\\\",\\\
+nFontSlant->\\\"Italic\\\"]\\): InverseMetric, Affine, Riemann, RicciTensor, \
+RicciScalar, Einstein, CovDerVector, CovDerOneForm, \\n\\tGradScalar, \
+CovDerTwoTensorDownDown, Worldline, GeodesicEqns, VelocityNorm, UdotKVF\\n\\t\
+\\!\\(\\*\\nStyleBox[\\\"Other\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\\
+nStyleBox[\\\" \
+\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\nStyleBox[\\\"Functions\\\",\\\
+nFontSlant->\\\"Italic\\\"]\\): AffineWig, RiemannWaff, RiemannAllDown, \
+ReimannAllDownWriem, RicciTensorWriem, RicciTensorWaff, \
+\\n\\tRicciScalarWricci, EinsteinWricci, ListAffine, ListRiemann, \
+ListRiemannAllDown, ListTwoIndex, CovDivgVector, \\n\\tCovDiv2TensorUpUup, \
+RForm\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"GRhelper`GRhelper\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"GRhelper \
+\\!\\(\\*\\nStyleBox[\\\"Main\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\\
+nStyleBox[\\\" \
+\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\nStyleBox[\\\"Functions\\\",\\\
+nFontSlant->\\\"Italic\\\"]\\): InverseMetric, Affine, Riemann, RicciTensor, \
+RicciScalar, Einstein, CovDerVector, CovDerOneForm, \\n\\tGradScalar, \
+CovDerTwoTensorDownDown, Worldline, GeodesicEqns, VelocityNorm, UdotKVF\\n\\t\
+\\!\\(\\*\\nStyleBox[\\\"Other\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\\
+nStyleBox[\\\" \
+\\\",\\nFontSlant->\\\"Italic\\\"]\\)\\!\\(\\*\\nStyleBox[\\\"Functions\\\",\\\
+nFontSlant->\\\"Italic\\\"]\\): AffineWig, RiemannWaff, RiemannAllDown, \
+ReimannAllDownWriem, RicciTensorWriem, RicciTensorWaff, \
+\\n\\tRicciScalarWricci, EinsteinWricci, ListAffine, ListRiemann, \
+ListRiemannAllDown, ListTwoIndex, CovDivgVector, \\n\\tCovDiv2TensorUpUup, \
+RForm\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {2., 8.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {2., 8.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[
+   Association[
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "GRhelper \!\(\*\nStyleBox[\"Main\",\nFontSlant->\"Italic\"]\)\!\(\*\n\
+StyleBox[\" \",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\"Functions\",\n\
+FontSlant->\"Italic\"]\): InverseMetric, Affine, Riemann, RicciTensor, \
+RicciScalar, Einstein, CovDerVector, CovDerOneForm, \n\tGradScalar, \
+CovDerTwoTensorDownDown, Worldline, GeodesicEqns, VelocityNorm, UdotKVF\n\t\!\
+\(\*\nStyleBox[\"Other\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\" \",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\"Functions\",\n\
+FontSlant->\"Italic\"]\): AffineWig, RiemannWaff, RiemannAllDown, \
+ReimannAllDownWriem, RicciTensorWriem, RicciTensorWaff, \n\t\
+RicciScalarWricci, EinsteinWricci, ListAffine, ListRiemann, \
+ListRiemannAllDown, ListTwoIndex, CovDivgVector, \n\tCovDiv2TensorUpUup, \
+RForm", "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
+    "DownValues" -> None, "SubValues" -> None, "DefaultValues" -> None, 
+    "NValues" -> None, "FormatValues" -> None, "Options" -> None, 
+    "Attributes" -> {}, "FullName" -> "GRhelper`GRhelper"], False]]], "Output",\
+
+ CellChangeTimes->{3.845976386232785*^9, 3.8459773564839983`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"0f3897a6-cddb-4161-86f7-43d3e6180d01"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"coords", "=", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "r", ",", "\[Theta]", ",", "\[Phi]"}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.8459765227222843`*^9, 3.8459765340170918`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"24fda154-df03-411d-aea3-d85188ad4a40"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"For", " ", "Schwarszchild", " ", "Metric"}], " ", "*)"}]], "Input",\
+
+ CellChangeTimes->{{3.8459770800549183`*^9, 3.8459770894497004`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"fabb6f39-c83c-4be3-912c-b68faee9799e"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\[Beta]d", "=", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Alpha]", "=", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", "M"}], "r"]}], ")"}], 
+    FractionBox["1", "2"]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Gamma]spatialdd", "=", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", "M"}], "r"]}], ")"}], 
+        RowBox[{"-", "1"}]], ",", "0", ",", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       SuperscriptBox["r", "2"], ",", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       RowBox[{
+        SuperscriptBox["r", "2"], 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"Sin", "[", "\[Theta]", "]"}], ")"}], "2"]}]}], "}"}]}], 
+    "\[IndentingNewLine]", "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"gdd", "=", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", "M"}], "r"]}], ")"}]}], ",", "0", ",", "0", ",", 
+       "0"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", "M"}], "r"]}], ")"}], 
+        RowBox[{"-", "1"}]], ",", "0", " ", ",", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       SuperscriptBox["r", "2"], ",", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0", ",", 
+       RowBox[{
+        SuperscriptBox["r", "2"], 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"Sin", "[", "\[Theta]", "]"}], ")"}], "2"]}]}], "}"}]}], 
+    "\[IndentingNewLine]", "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"guu", "=", 
+   RowBox[{"InverseMetric", "[", "gdd", "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.8459763981231527`*^9, 3.845976423780602*^9}, {
+  3.845976467825839*^9, 3.845976532081008*^9}, {3.8459766237363853`*^9, 
+  3.845976623933043*^9}, {3.845977095552573*^9, 
+  3.845977378558766*^9}},ExpressionUUID->"d6d90471-09a9-4850-98cc-\
+620d18e64c50"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"nd", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "\[Alpha]"}], ",", "0", ",", "0", ",", "0"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nu", "=", 
+   RowBox[{
+    FractionBox["1", "\[Alpha]"], 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"-", 
+       RowBox[{"\[Beta]d", "[", 
+        RowBox[{"[", "2", "]"}], "]"}]}], ",", 
+      RowBox[{"-", 
+       RowBox[{"\[Beta]d", "[", 
+        RowBox[{"[", "3", "]"}], "]"}]}], ",", 
+      RowBox[{"\[Beta]d", "[", 
+       RowBox[{"[", "4", "]"}], "]"}]}], "}"}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.845976567245389*^9, 3.845976628880324*^9}, {
+  3.845976659544291*^9, 3.845976718183991*^9}, {3.84597736425152*^9, 
+  3.845977366041264*^9}, {3.8459775777020206`*^9, 3.845977578159368*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"1e5df39d-49ac-4755-a4ff-d5a20481e2a0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Gamma]dd", "=", 
+   RowBox[{"Table", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"gdd", "[", 
+         RowBox[{"[", 
+          RowBox[{"\[Mu]", ",", "\[Nu]"}], "]"}], "]"}], "+", 
+        RowBox[{
+         RowBox[{"nd", "[", 
+          RowBox[{"[", "\[Mu]", "]"}], "]"}], 
+         RowBox[{"nd", "[", 
+          RowBox[{"[", "\[Nu]", "]"}], "]"}]}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Nu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"\[Mu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.845976599362451*^9, 3.845976607921701*^9}, {
+   3.8459767404844418`*^9, 3.845976744774556*^9}, {3.845977400931129*^9, 
+   3.845977527335428*^9}, 3.845977593372293*^9},
+ CellLabel->"In[34]:=",ExpressionUUID->"9ecf73fc-4363-4405-abda-5ed1a9f307da"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Gamma]uu", "=", 
+   RowBox[{"Table", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"guu", "[", 
+         RowBox[{"[", 
+          RowBox[{"\[Mu]", ",", "\[Nu]"}], "]"}], "]"}], "+", 
+        RowBox[{
+         RowBox[{"nu", "[", 
+          RowBox[{"[", "\[Mu]", "]"}], "]"}], 
+         RowBox[{"nu", "[", 
+          RowBox[{"[", "\[Nu]", "]"}], "]"}]}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Nu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"\[Mu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.845977624518944*^9, 
+  3.845977633779104*^9}},ExpressionUUID->"373c3a22-f195-49d9-84ae-\
+73a6b088828f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"term1", "=", 
+   RowBox[{"CovDerVector", "[", 
+    RowBox[{"nu", ",", "gdd", ",", "coords"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Kdu", "=", 
+  RowBox[{
+   RowBox[{"-", "1"}], "*", 
+   RowBox[{"Table", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"term1", "[", 
+         RowBox[{"[", 
+          RowBox[{"\[Nu]", ",", "\[Mu]"}], "]"}], "]"}], "+", 
+        RowBox[{
+         RowBox[{"nd", "[", 
+          RowBox[{"[", "\[Nu]", "]"}], "]"}], "*", 
+         RowBox[{"Sum", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"nu", "[", 
+             RowBox[{"[", "\[Alpha]", "]"}], "]"}], 
+            RowBox[{"term1", "[", 
+             RowBox[{"[", 
+              RowBox[{"\[Alpha]", ",", "\[Mu]"}], "]"}], "]"}]}], ",", 
+           RowBox[{"{", 
+            RowBox[{"\[Alpha]", ",", "1", ",", "4", ",", "1"}], "}"}]}], 
+          "]"}]}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Nu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"\[Mu]", ",", "1", ",", "4", ",", "1"}], "}"}]}], 
+    "]"}]}]}]}], "Input",
+ CellChangeTimes->{{3.8459811659455338`*^9, 3.845981169978916*^9}, {
+  3.845981212956949*^9, 3.8459813956851254`*^9}, {3.8459814316230583`*^9, 
+  3.84598143208696*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"e9d3fe3c-59af-481c-b264-71f8cec51428"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8459813160538263`*^9, 3.845981326366132*^9}, 
+   3.845981373130949*^9, 3.845981433283187*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"b028912f-1336-4c01-8ae1-3dff204758e4"]
+}, Open  ]]
+},
+WindowSize->{1548, 693},
+WindowMargins->{{2261, Automatic}, {-264, Automatic}},
+FrontEndVersion->"12.3 for Mac OS X ARM (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1e17b0ba-7145-4096-a5e2-2f0170988426"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 217, 4, 30, "Input",ExpressionUUID->"c89347df-0044-476e-9e19-98043843d9d0"],
+Cell[CellGroupData[{
+Cell[822, 30, 241, 4, 24, "Print",ExpressionUUID->"c2a3b1ac-446e-4721-bab1-e511dbd64be9"],
+Cell[1066, 36, 272, 5, 24, "Print",ExpressionUUID->"efdf0cf5-373f-4f26-b57c-5e29299829fa"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1387, 47, 200, 3, 30, "Input",ExpressionUUID->"bdb5d61b-d3f5-4432-89c4-6025f0391a0a"],
+Cell[1590, 52, 10646, 247, 191, "Output",ExpressionUUID->"0f3897a6-cddb-4161-86f7-43d3e6180d01"]
+}, Open  ]],
+Cell[12251, 302, 305, 7, 30, "Input",ExpressionUUID->"24fda154-df03-411d-aea3-d85188ad4a40"],
+Cell[12559, 311, 264, 5, 30, "Input",ExpressionUUID->"fabb6f39-c83c-4be3-912c-b68faee9799e"],
+Cell[12826, 318, 2622, 79, 423, "Input",ExpressionUUID->"d6d90471-09a9-4850-98cc-620d18e64c50"],
+Cell[15451, 399, 898, 24, 69, "Input",ExpressionUUID->"1e5df39d-49ac-4755-a4ff-d5a20481e2a0"],
+Cell[16352, 425, 977, 25, 73, "Input",ExpressionUUID->"9ecf73fc-4363-4405-abda-5ed1a9f307da"],
+Cell[17332, 452, 834, 24, 73, "Input",ExpressionUUID->"373c3a22-f195-49d9-84ae-73a6b088828f"],
+Cell[CellGroupData[{
+Cell[18191, 480, 1471, 40, 94, "Input",ExpressionUUID->"e9d3fe3c-59af-481c-b264-71f8cec51428"],
+Cell[19665, 522, 564, 13, 34, "Output",ExpressionUUID->"b028912f-1336-4c01-8ae1-3dff204758e4"]
+}, Open  ]]
+}
+]
+*)
+

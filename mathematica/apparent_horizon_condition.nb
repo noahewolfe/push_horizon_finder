@@ -1,0 +1,132 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3958,        124]
+NotebookOptionsPosition[      3392,        106]
+NotebookOutlinePosition[      3785,        122]
+CellTagsIndexPosition[      3742,        119]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"A", "=", 
+   FractionBox["1", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalGamma]", "[", 
+       RowBox[{"r", ",", "t"}], "]"}], ")"}], "2"]]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Kthetatheta", "=", 
+   FractionBox["1", 
+    RowBox[{"4", " ", "\[Pi]", " ", 
+     SuperscriptBox["r", "3"], " ", 
+     RowBox[{"u", "[", 
+      RowBox[{"r", ",", "t"}], "]"}], " ", 
+     SuperscriptBox[
+      RowBox[{"\[Alpha]", "[", 
+       RowBox[{"r", ",", "t"}], "]"}], "2"], " ", 
+     RowBox[{"\[CapitalGamma]", "[", 
+      RowBox[{"r", ",", "t"}], "]"}], " ", 
+     RowBox[{"\[Rho]", "[", 
+      RowBox[{"r", ",", "t"}], "]"}]}]]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.84598329770949*^9, 3.845983325654726*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"2557bd43-173a-400c-90d4-6368cba5c1f1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"H", "=", 
+  RowBox[{
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"\[Sqrt]", "A"}]], 
+    RowBox[{"(", 
+     RowBox[{
+      FractionBox["2", "r"], "+", 
+      FractionBox[
+       RowBox[{"D", "[", 
+        RowBox[{"B", ",", "r"}], "]"}], "B"]}], ")"}]}], "-", 
+   RowBox[{"2", "Kthetatheta", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+      RowBox[{
+      "For", " ", "the", " ", "current", " ", "state", " ", "of", " ", 
+       "things"}], ",", " ", 
+      RowBox[{
+      "this", " ", "is", " ", "a", " ", "pretty", " ", "simple", " ", 
+       "equation"}], ",", " ", 
+      RowBox[{
+       RowBox[{
+       "but", " ", "putting", " ", "it", " ", "here", " ", "generically", " ",
+         "for", " ", "if", " ", "things", " ", "become", " ", "more", " ", 
+        "complex"}], "..."}]}], "*)"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.84598332869081*^9, 3.845983368944476*^9}, {
+  3.8459834690340137`*^9, 3.84598349480298*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"eb5a8b95-3238-4b04-b4f8-a98c50e79684"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["2", 
+   RowBox[{"r", " ", 
+    SqrtBox[
+     FractionBox["1", 
+      SuperscriptBox[
+       RowBox[{"\[CapitalGamma]", "[", 
+        RowBox[{"r", ",", "t"}], "]"}], "2"]]]}]], "-", 
+  FractionBox["1", 
+   RowBox[{"2", " ", "\[Pi]", " ", 
+    SuperscriptBox["r", "3"], " ", 
+    RowBox[{"u", "[", 
+     RowBox[{"r", ",", "t"}], "]"}], " ", 
+    SuperscriptBox[
+     RowBox[{"\[Alpha]", "[", 
+      RowBox[{"r", ",", "t"}], "]"}], "2"], " ", 
+    RowBox[{"\[CapitalGamma]", "[", 
+     RowBox[{"r", ",", "t"}], "]"}], " ", 
+    RowBox[{"\[Rho]", "[", 
+     RowBox[{"r", ",", "t"}], "]"}]}]]}]], "Output",
+ CellChangeTimes->{{3.845983355903576*^9, 3.845983369189764*^9}, {
+  3.84598349669499*^9, 3.845983502086763*^9}},
+ CellLabel->"Out[21]=",ExpressionUUID->"6f151bca-a04a-4c4c-aea5-24796fd069de"]
+}, Open  ]]
+},
+WindowSize->{808, 693},
+WindowMargins->{{-31, Automatic}, {Automatic, 45}},
+FrontEndVersion->"12.3 for Mac OS X ARM (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"55b1107d-66dc-48d2-b1e4-11637bb136f8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 925, 26, 117, "Input",ExpressionUUID->"2557bd43-173a-400c-90d4-6368cba5c1f1"],
+Cell[CellGroupData[{
+Cell[1508, 50, 1032, 28, 96, "Input",ExpressionUUID->"eb5a8b95-3238-4b04-b4f8-a98c50e79684"],
+Cell[2543, 80, 833, 23, 69, "Output",ExpressionUUID->"6f151bca-a04a-4c4c-aea5-24796fd069de"]
+}, Open  ]]
+}
+]
+*)
+
