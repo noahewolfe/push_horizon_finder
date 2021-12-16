@@ -33,3 +33,12 @@ The Jupyter notebook should be executed sequentially; for detailed descriptions 
 - The horizon finder is implemented in `push_apparent_horizon_finding-AGILE_expansion.ipynb` (see Use, above).
 - Physical motivation and derviations are provided in `PUSH_GR-FALL_2021-FINAL_REPORT.pdf` (coherently) and `PUSH_GR.pdf` (less coherently). The former document is the final report that Noah Wolfe completed to receieve PY 499 class credit at NC State in the Fall 2021 semester; the latter document is his notes on numerical relativity, AGILE, and horizon finding, some of which ended up in the final report. Readers beware of the latter document.
 - The mathematica scripts in `./mathematica` contain calculations and manipulations of general relativity vector and tensor quantities. The utility of their results in deriving results or implementing the horizon finder in code is referenced inline in the relevant documents.
+- A possibly incomplete / overcomplete list of references, in bibtex format, can be found in `refs.bib`.
+
+# References
+## General Relativity
+- Frauendiener, J. Miguel Alcubierre: Introduction to 3 + 1 numerical relativity. Gen Relativ Gravit 43, 2931 (2011). https://doi.org/10.1007/s10714-011-1195-5
+- Misner, Charles W., Kip S. Thorne, and John Archibald Wheeler. Gravitation. Macmillan, (1973).
+## PUSH and AGILE
+- The most modern version of PUSH is described in: Ebinger, Kevin, et al. "PUSHing core-collapse supernovae to explosions in spherical symmetry. II. explodability and remnant properties." The Astrophysical Journal 870.1 (2018)
+- AGILE is described, in complete, in Mattias Liebendorfer's thesis; the ADS record for this reference can be found at: https://ui.adsabs.harvard.edu/abs/2000PhDT.......311L/abstract
