@@ -1,4 +1,6 @@
 # push_horizon_finder
+[![DOI](https://zenodo.org/badge/438798803.svg)](https://zenodo.org/badge/latestdoi/438798803)
+
 Post-process AGILE general relativistic hydrodynamics output from completed PUSH simulations to identify the formation of black hole horizons.
 
 # Installation
